@@ -29,6 +29,7 @@ steps:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
       **/*.js
+      **/*.sh
       package.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
